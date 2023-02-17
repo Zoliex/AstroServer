@@ -1,0 +1,19 @@
+{
+  "name": "astropi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watchcss": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  },
+  "dependencies": {
+    "electron": "^23.1.0"
+  }
+}
